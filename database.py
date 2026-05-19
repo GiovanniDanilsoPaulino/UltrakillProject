@@ -72,9 +72,14 @@ mycursor.execute(create_enemies)
 mycursor.execute(insert_enemies)
 
 #Test that prints all enemies information
-mycursor.execute(select_enemies)
+#mycursor.execute(select_enemies)
+#for x in mycursor:
+#    print(x)
+
+def selectType(enemy_type) :
+    mycursor.execute("SELECT * FROM terminal.Enemies " \
+    "WHERE type LIKE '%" + enemy_type + "%';")
+
+selectType("supreme")
 for x in mycursor:
     print(x)
-
-#def selectType(string type) :
-#    a = type
