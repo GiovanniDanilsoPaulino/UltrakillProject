@@ -74,19 +74,63 @@ stalker_strategy = "The lights on the canister give information on a Stalker\\'s
 "" \
 "Attaching magnets to a Stalker will reduce the radius of its detonation."
 
-insurrectionist_data = ""
+insurrectionist_data = "The Sisyphean Insurrectionists were an army of Husks gathered and trained by King Sisyphus for overthrowing Heaven\\'s control of Hell, freeing the sinners from their eternal torment." \
+"" \
+"During an era of chaos in Heaven, as the angelic watch was absent, Sisyphus began setting his plan in motion as his forces recruited all Husks that were intelligent enough to be useful to their cause and began attacking the demons that wandered the dunes of Greed." \
+"" \
+"Upon the establishment of the Council and subsequent return of peace to Heaven, Gabriel and an army of angels were sent down to crush the insurrection and subjugate Sisyphus\\' army." \
+"" \
+"Although their battle was well-fought, the inexperienced Insurrectionists could not match the educated strategy of the angels, who quickly descended upon King Sisyphus with great force, eventually overpowering and killing him, leaving the Insurrectionists without a chain of command." \
+"" \
+"Left scattered and disoriented, the warriors were easily picked off one by one, their bodies cut apart, leaving behind only the bare essentials required to carry on their eternal punishment of hauling heavy boulders up the monuments of mankind\\'s arrogance and greed." \
+"" \
+"Although the blood of their enemies still stains their bodies and their grasp still clutches their fallen foes, their will and fierce fury only serve as mental torment in knowing how close they were to freedom."
 
-insurrectionist_strategy = ""
+insurrectionist_strategy = "The Sisyphean Insurrectionists soak their feet in the blood of their enemies to protect them from the heat of Greed\\'s dunes, but the rest of their body is still skin and flesh, which can be set aflame to greatly weaken their defences, increasing the damage of any attack dealt to them." \
+"" \
+"Though they have practically unlimited range, each of the Insurrectionist\\'s swings has strengths and weaknesses. Learning which way to dodge to avoid each attack is vital." \
+"" \
+"The Insurrectionist\\'s stomp is fast and destructive, so it\\'s inadvisable to stay close for long." \
+"" \
+"The Malicious Face they wield as a weapon is not a part of their body, so hitting it will not deal damage to an Insurrectionist, but this also means that it can still be used to heal even if its wielder\\'s blood has been turned to sand." \
 
-ferryman_data = ""
+ferryman_data = "Ferrymen are rare husks whose powerful bodies, trained skills and blind faith have granted them the chance of becoming the transporters of souls between the layers of Hell." \
+"" \
+"They have each been given a holy cloth by Heaven as a symbol of their devotion to God\\'s order, which they wear over their bodies to hide the human form that they\\'ve grown to despise as a reminder of their sins in life stopping them from becoming angels, to the extent that they have torn off their own skin and flesh, leaving behind only bones." \
+"" \
+"Due to the holy power emanating from the cloth, Ferrymen\\'s skeletal bodies have slowly been colored bright and radiant, and their skulls have enough latent energy to open gates that otherwise stop Husks from exiting their places of torment." \
+"" \
+"Each ferry can only have one Ferryman at a time, so when a new Ferryman is formed, it will fight another to the death in order to take their place and inherit their cloth. The loser\\'s skull is taken as a trophy and used to grant the winner passage across the layers in order to transport the souls of the damned to their destinations." \
+"" \
+"Ferrymen will often use the knowledge from their past life to improve their ferries, growing past the need for oars, which are now used by Ferrymen only as weapons." \
+"" \
+"As the influx of souls has ended with the death of mankind, the Ferrymen have lost their purpose and now wander around aimlessly, hoping that the angels would grant them passage into Heaven, despite Gabriel being the only one who cares about their efforts."
 
-ferryman_strategy = ""
+ferryman_strategy = "Ferrymen choose their attacks based on their opponent\\'s actions. When approached, they move to safety, and when retreated from, they\\'ll apply pressure via attacks with greater reach." \
+"" \
+"Despite its looks, their uppercut is quite dangerous and can be difficult to dodge. It\\'s best not to stay in the air for too long." \
+"" \
+"Some of their attacks are parryable and some are not. Pay attention to the color of their warning flash to learn which are which." \
+"" \
+"Ferrymen may attempt to cross a retreating opponent up by rolling behind them before attacking. Keep track of their position and if they roll too often, try being more aggressive."
 
-reaper_data = ""
+reaper_data = "Due to its illusory nature, very little is known about the 8th layer of Hell. Even its punishment remains shrouded in mystery." \
+"" \
+"Extended exposure to the layer, which seems like picturesque recreation of a New Peace community on the surface, causes eventual total collapse of sensory information and physical space, after which all connection is lost." \
+"" \
+"The only point of reference is the elusive Mirror Reaper, an amalgamation of multiple husks arranged in a deliberate, twisted fashion, which seems to exist between spaces, often inside reflections, hence its name." \
+"" \
+"Although this example could be used to draw conclusions about the fates of its layer\\'s inhabitants, it\\'s important to keep in mind that this instance is the only one of its kind to ever be seen, which may imply that what happened to everyone else was far, far worse." \
+"" \
+""
 
-reaper_strategy = ""
+reaper_strategy = "The Mirror Reaper\\'s height and speed makes it an imposing opponent, but its poor motor control gives shorter opponents an advantage in passing under its swings." \
+"" \
+"When the Mirror Reaper escapes, the hands it summons can be followed back to their source to find it." \
+"" \
+"When in grave danger, the Mirror Reaper can escape into a fold in space, making it only visible through reflections."
 
-swordsmachine_data = ""
+swordsmachine_data = " "
 
 swordsmachine_strategy = ""
 

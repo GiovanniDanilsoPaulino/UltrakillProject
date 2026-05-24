@@ -76,10 +76,29 @@ mycursor.execute(insert_enemies)
 #for x in mycursor:
 #    print(x)
 
+#Selects all enemies where type contains enemy_type
 def selectType(enemy_type) :
     mycursor.execute("SELECT * FROM terminal.Enemies " \
     "WHERE type LIKE '%" + enemy_type + "%';")
 
+#Selects all enemies where data contains enemy_data
+def selectData(enemy_data) :
+    mycursor.execute("SELECT * FROM terminal.Enemies " \
+    "WHERE data LIKE '%" + enemy_data + "%';")
+
+#Selects all enemies where strategy contains enemy_strategy
+def selectStrategy(enemy_strategy) :
+    mycursor.execute("SELECT * FROM terminal.Enemies " \
+    "WHERE strategy LIKE '%" + enemy_strategy + "%';")
+
 selectType("supreme")
+for x in mycursor:
+    print(x)
+
+selectData("hell")
+for x in mycursor:
+    print(x)
+
+selectStrategy("black hole")
 for x in mycursor:
     print(x)
