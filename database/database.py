@@ -64,3 +64,18 @@ for x in mycursor:
 selectStrategy("black hole")
 for x in mycursor:
     print(x[0])
+
+execute_sql_scripts('guns.sql')
+execute_sql_scripts('weapons.sql')
+
+execute_sql_scripts('guns_data.sql')
+execute_sql_scripts('weapons_data.sql')
+
+#Test for printing all weapons data
+#mycursor.execute("SELECT * FROM weapons")
+#for x in mycursor:
+#    print(x)
+#Test for printing all guns data
+#mycursor.execute("SELECT * FROM guns")
+#for x in mycursor:
+#    print(x)
