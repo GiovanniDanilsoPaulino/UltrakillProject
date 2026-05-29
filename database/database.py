@@ -4,15 +4,15 @@ import mysql.connector
 import credentials
 
 #connects to database
-database = mysql.connector.connect(
+connection = mysql.connector.connect(
     host = "localhost",
     user = credentials.username,
     password = credentials.password
 )
 
-print(database)
+print(connection)
 
-mycursor = database.cursor()
+mycursor = connection.cursor()
 
 def execute_sql_scripts(filename):
     """Execute SQL scripts from a specified file."""
