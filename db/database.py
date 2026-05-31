@@ -1,5 +1,9 @@
 from sqlite3 import OperationalError
 
+import sys
+for path in sys.path:
+    print(path)
+
 import mysql.connector
 import credentials
 
@@ -14,7 +18,7 @@ print(connection)
 
 mycursor = connection.cursor()
 
-def execute_sql_scripts(filename):
+def executeSqlScripts(filename):
     """Execute SQL scripts from a specified file."""
     with open(filename, 'r') as fd:
         sql_commands = fd.read().split(';')
@@ -26,16 +30,24 @@ def execute_sql_scripts(filename):
             print("Command skipped: ", msg)
 
 #Creates terminal database
-execute_sql_scripts('terminal.sql')
+executeSqlScripts('../db/terminal.sql')
 
 #Creates and fills enemies table
-execute_sql_scripts('enemies.sql')
-execute_sql_scripts('enemies_data.sql')
+executeSqlScripts('../db/enemies.sql')
+executeSqlScripts('../db/enemies_data.sql')
 
 #Test that prints all enemies information
 #mycursor.execute(select_enemies)
 #for x in mycursor:
 #    print(x)
+
+#Returns all the enemies as a dictionary
+def returnEnemies() :
+    mycursor.execute("SELECT * FROM terminal.Enemies")
+    dictionary = {}
+    for enemy in mycursor:
+        dictionary[enemy[0]] = enemy
+    return dictionary
 
 #Selects all enemies where type contains enemy_type
 def selectType(enemy_type) :
@@ -65,11 +77,11 @@ selectStrategy("black hole")
 for x in mycursor:
     print(x[0])
 
-execute_sql_scripts('guns.sql')
-execute_sql_scripts('weapons.sql')
+executeSqlScripts('../db/guns.sql')
+executeSqlScripts('../db/weapons.sql')
 
-execute_sql_scripts('guns_data.sql')
-execute_sql_scripts('weapons_data.sql')
+executeSqlScripts('../db/guns_data.sql')
+executeSqlScripts('../db/weapons_data.sql')
 
 #Test for printing all weapons data
 #mycursor.execute("SELECT * FROM weapons")
